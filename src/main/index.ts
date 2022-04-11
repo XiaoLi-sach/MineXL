@@ -1,5 +1,5 @@
-import {app, BrowserWindow, globalShortcut, protocol} from 'electron'
-import {join} from 'path'
+import { app, BrowserWindow, globalShortcut, protocol } from 'electron'
+import { join } from 'path'
 import dotenv from 'dotenv'
 import minimist from 'minimist'
 
@@ -10,7 +10,7 @@ function createWindow () {
   let window = new Window();
   window.listen();
   window.createWindows({ isMainWin: true });
-  window.createTray();
+  window.createTray();``
 //   win.loadFile(path.join(__dirname,'../render/index.html'))
 }
 
