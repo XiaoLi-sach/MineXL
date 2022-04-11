@@ -36,7 +36,7 @@ npm 或者别的都可以， 但是这边推荐使用yarn
  - yarn build:all 打包程序
 
 ### 上个框架有点小问题， 然后又感觉技术不够先进， 然后搭建了这个
-主要的：vue3 + vite2 + electron12
+主要的：vue3 + vite2 + electron12 + ts
 剩下的取package.json 看吧
  
 
