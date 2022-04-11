@@ -6,8 +6,8 @@ module.exports = defineConfig({
     node: true,
     es6: true,
   },
+  parser: "vue-eslint-parser",
   parserOptions: {
-    parser: "babel-eslint",
     sourceType: "module"
   },
   rules: {
