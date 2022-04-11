@@ -1,3 +1,20 @@
+# MineXL
+
+有天群友发了一个minecarft的设计图， 感觉很好看，实现一下
+
+## 项目如何启动？
+
+npm 或者别的都可以， 但是这边推荐使用yarn
+
+- yarn install  下载依赖
+- yarn dev:all 启动程序 
+- yarn build:all 打包程序
+
+### 上个框架有点小问题， 然后又感觉技术不够先进， 然后搭建了这个
+
+主要的：vue3 + vite2 + electron12 + ts
+剩下的取package.json 看吧
+
 <!-- # Vue 3 + Typescript + Vite
 
 This template should help get you started developing with Vue 3 and Typescript in Vite.
@@ -25,18 +42,3 @@ Run `Volar: Switch TS Plugin on/off` from VSCode command palette.
 3. Open `src/main.ts` in VSCode
 4. Open the VSCode command palette
 5. Search and run "Select TypeScript version" -> "Use workspace version" -->
-
-# MineXL
-有天群友发了一个minecarft的设计图， 感觉很好看，实现一下
-
-## 项目如何启动？
-npm 或者别的都可以， 但是这边推荐使用yarn
- - yarn install  下载依赖
- - yarn dev:all 启动程序 
- - yarn build:all 打包程序
-
-### 上个框架有点小问题， 然后又感觉技术不够先进， 然后搭建了这个
-主要的：vue3 + vite2 + electron12 + ts
-剩下的取package.json 看吧
- 
-

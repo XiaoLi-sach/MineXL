@@ -3,7 +3,7 @@ import path, {join} from "path";
 
 const windowsCfg = {
   id: "", //唯一id
-  title: "BakaXL - Minecraft 启动器", //窗口标题
+  title: "MineXL - Minecraft 启动器", //窗口标题
   width: 1528, //宽度
   height: 935, //高度
   minWidth: 1200, //最小宽度
@@ -74,12 +74,12 @@ export class Window {
       // 判断窗口是否存在
       for (let i in this.group) {
           if (
-              this.getWindow(Number(i)) &&
-              this.group[i].route === args.route &&
-              !this.group[i].isMultiWindow
+            this.getWindow(Number(i)) &&
+            this.group[i].route === args.route &&
+            !this.group[i].isMultiWindow
           ) {
-              this.getWindow(Number(i)).focus();
-              return;
+            this.getWindow(Number(i)).focus();
+            return;
           }
       }
       let opt = this.winOpts([args.width || 800, args.height || 600]);

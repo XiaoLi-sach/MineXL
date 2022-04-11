@@ -36,7 +36,7 @@
       "target": [
         "dmg"
       ],
-      "icon": "icons/icon.icns"
+      "icon": "icons/favicon.icns"
     },
     "win": {
       "target": [
@@ -48,7 +48,7 @@
         }
       ],
       "artifactName": "blockCat_${version}.${ext}",
-      "icon": "icons/icon.ico"
+      "icon": "icons/favicon.ico"
     },
     "nsis": {
       "oneClick": false,
@@ -58,6 +58,7 @@
     }
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^5.18.0",
     "vue": "^3.0.5",
     "vue-router": "^4.0.13",
     "vuex": "^4.0.2"
@@ -70,6 +71,7 @@
     "@rollup/plugin-node-resolve": "^11.2.1",
     "@types/koa": "^2.13.1",
     "@types/minimist": "^1.2.1",
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
     "@vitejs/plugin-vue": "^1.2.1",
     "@vitejs/plugin-vue-jsx": "^1.1.3",
     "@vue/compiler-sfc": "^3.0.5",
@@ -86,7 +88,9 @@
     "electron-forge": "^5.2.4",
     "electron-updater": "^4.3.8",
     "eslint": "^8.13.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-define-config": "^1.3.0",
+    "eslint-plugin-vue": "^8.6.0",
     "koa": "^2.13.1",
     "koa-body": "^4.2.0",
     "koa-router": "^10.0.0",
@@ -101,6 +105,7 @@
     "typescript": "^4.1.3",
     "vite": "^2.1.5",
     "vite-plugin-vue-jsx": "^0.0.4",
+    "vue-eslint-parser": "^8.3.0",
     "vue-tsc": "^0.0.24"
   },
   "keywords": [

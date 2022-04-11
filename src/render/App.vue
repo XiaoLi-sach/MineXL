@@ -1,13 +1,4 @@
 <template>
-<!--  <div class="logo">-->
-<!--     &lt;!&ndash; <img alt="electron logo" src="./assets/electron.png" />-->
-<!--     <img alt="Vue logo" src="./assets/logo.png" /> &ndash;&gt;-->
-<!--     <ul ref='container'>-->
-<!--       <li><img alt="electron logo" src="./assets/electron.png" /></li>-->
-<!--       <li><img alt="Vue logo" src="./assets/logo.png" /></li>-->
-<!--       <li><img alt="Vue logo" src="../../public/abs.jpg" /></li>-->
-<!--     </ul>-->
-<!--  </div>-->
 <!--  <Header />-->
   <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + Electron" />
 </template>
