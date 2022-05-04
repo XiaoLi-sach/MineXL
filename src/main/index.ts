@@ -15,7 +15,7 @@ function createWindow () {
 }
 
 app.on("ready", async () => {
-  // 编写快捷键
+  // 编写快捷键 后续再写， 现在有些问题
   globalShortcut.register('CommandOrControl+Shift+i', () => {
 
   })

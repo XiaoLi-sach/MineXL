@@ -192,7 +192,6 @@ export class Window {
               },
           },
       ]);
-      console.log(__dirname);
       const trayIco = path.join(__dirname, "../../public/favicon.ico");
       console.log(trayIco);
       this.tray = new Tray(trayIco);

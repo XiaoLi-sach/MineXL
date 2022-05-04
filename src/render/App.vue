@@ -1,32 +1,23 @@
 <template>
 <!--  <Header />-->
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + Electron" />
+<!--  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite + Electron" />-->
+  <router-view />
 </template>
 
-<script lang="ts">
-import { defineComponent, onMounted, ref } from 'vue'
-// import Header from './components/Header/index.vue'
-import HelloWorld from './components/HelloWorld.vue'
-
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  },
-  setup() {
-    const container:any = ref(null)
-    onMounted(() => {
-      const ul = container.value
-      let fristChild:HTMLBaseElement = ul[0]
-      let lastChild:HTMLBaseElement = ul[ul.length - 1]
-      ul.applendChild(fristChild)
-      ul.insertBefore(lastChild)
-      console.log(container.value)
-    })
-    return  {
-      container
-    }
-  }
+<script setup lang="ts">
+import { onMounted, ref } from 'vue'
+// import HelloWorld from './components/HelloWorld.vue'
+//
+const container:any = ref(null)
+const dom_root = document.getElementById('root')
+onMounted(() => {
+  const ul = container.value
+  let fristChild:HTMLBaseElement = ul[0]
+  let lastChild:HTMLBaseElement = ul[ul.length - 1]
+  ul.applendChild(fristChild)
+  ul.insertBefore(lastChild)
+  console.log(container.value)
+  dom_root.style.display = 'none'
 })
 </script>
 

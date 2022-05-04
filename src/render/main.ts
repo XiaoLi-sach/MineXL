@@ -1,3 +1,10 @@
-import { createApp } from 'vue'
 import App from './App.vue'
-createApp(App).mount('#app')
+// import '../utils/ms-auth'
+import { createApp } from 'vue'
+import router from './router'
+
+
+const app = createApp(App)
+
+app.mount('#app')
+app.use(router)
